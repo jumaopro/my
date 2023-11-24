@@ -8,7 +8,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/1ists/* /tmp/* /var/tmp/*
 
 # 设圆 roor 用户的陆码为 “root"
-RUN echo "rootzroot" | chpasswd
+RUN echo "root:cd5208" | chpasswd
 # 暴露端口
 EXPOSE 22
 
