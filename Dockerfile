@@ -1,5 +1,5 @@
 # 使用 Uountu 22.04 作为基础镜像
-FRON ubuntu:22.04
+FROM ubuntu:22.04
 
 # 安装 Shellinabox
 RUN apt-get update && \
