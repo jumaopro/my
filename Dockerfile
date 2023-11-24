@@ -2,7 +2,7 @@
 FRON ubuntu:22.04
 
 # 安装 Shellinabox
-RUN apt-get updates && \
+RUN apt-get update && \
     apt-get install -y shellinabox && \
     apt-get clean &&\
     rm -rf/var/lib/apt/1ists/* /tmp/* /var/tmp/*
