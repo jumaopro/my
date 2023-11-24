@@ -4,8 +4,8 @@ FRON ubuntu:22.04
 # 安装 Shellinabox
 RUN apt-get update && \
     apt-get install -y shellinabox && \
-    apt-get clean &&\
-    rm -rf/var/lib/apt/1ists/* /tmp/* /var/tmp/*
+    apt-get clean && \
+    rm -rf /var/lib/apt/1ists/* /tmp/* /var/tmp/*
 
 # 设圆 roor 用户的陆码为 “root"
 RUN echo "rootzroot" | chpasswd
