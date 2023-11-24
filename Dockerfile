@@ -13,4 +13,4 @@ RUN echo "root:cd5208" | chpasswd
 EXPOSE 22
 
 #名动 Shellinabox
-CMD ["/usr/bin/shellinaboxd","-t","-s","/:L0GIN"]
+CMD ["/usr/bin/shellinaboxd", "-t", "-s", "/:L0GIN"]
